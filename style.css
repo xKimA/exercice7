@@ -22,7 +22,10 @@
     font-size:2em;
     letter-spacing:2px;
     margin-left:2vw;
+}
 
+.site-header.featured-image .entry-title {
+color:#e6a926;
 }
 
 .site-branding .site-description {
