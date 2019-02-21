@@ -56,3 +56,15 @@ body{
 color:#e6a926;
 margin-left:5vw;
 }
+
+.widget-title{
+    color:#e6a926;
+}
+
+thead{
+    color:#e6a926;
+}
+
+caption{
+    font-size:35px;
+}
