@@ -46,3 +46,13 @@ body{
     color:red;
     background-color:#ddd;
 }
+
+.conteneur-images img{
+    border: black 2px solid;
+}
+
+
+.pFinPage:hover{
+color:#e6a926;
+margin-left:5vw;
+}
