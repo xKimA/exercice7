@@ -88,6 +88,7 @@ caption {
   }
   50% {
     opacity: 0.5;
+    color: #e6a926;
   }
   to {
     opacity: 1;
@@ -100,6 +101,7 @@ caption {
   }
   50% {
     opacity: 0.5;
+    color: #e6a926;
   }
   to {
     opacity: 1;
@@ -152,6 +154,41 @@ caption {
     opacity: 1;
     -webkit-transform: translateY(0%) scale(1) skewX(0deg);
             transform: translateY(0%) scale(1) skewX(0deg);
+  }
+}
+
+.site-logo:hover {
+  -webkit-animation: anim3 1s;
+          animation: anim3 1s;
+}
+
+@-webkit-keyframes anim3 {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes anim3 {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 /*# sourceMappingURL=style.css.map */
