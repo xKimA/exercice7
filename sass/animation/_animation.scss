@@ -5,19 +5,47 @@ animation:anim1 1s;
 
 @keyframes anim1 {
     from {
-        transform: skewX(0deg) scale(1);
-        //opacity:0;
+        opacity:0;
+        //transform: skewX(0deg) scale(1);
         
-
     }
 
     50%{
-        //opacity:0.5;
-        transform: skewX(20deg) scale(1.5);
+        opacity:0.5;
+        //transform: skewX(20deg) scale(1.5);
     }
 
     to {
-        transform: skewX(0deg) scale(1);
-        //opacity:1;
+        opacity:1;
+        //transform: skewX(0deg) scale(1);
+        
+    }
+}
+
+.site-description{
+    animation:anim2 1s;
+
+}
+
+@keyframes anim2 {
+    from {
+        opacity:0;
+        transform: translateY(-80vh)scale(1);
+        
+    }
+
+    50%{
+        opacity:0.5;
+        transform: translateY(-30vh) scale(1.5) ;
+    }
+
+    85%{
+        transform:skewX(20deg);
+    }
+
+    to {
+        opacity:1;
+        transform: translateY(0%)scale(1) skewX(0deg);
+        
     }
 }
