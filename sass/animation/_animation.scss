@@ -1,0 +1,23 @@
+.site-title a{
+animation:anim1 1s;
+}
+
+
+@keyframes anim1 {
+    from {
+        transform: skewX(0deg) scale(1);
+        //opacity:0;
+        
+
+    }
+
+    50%{
+        //opacity:0.5;
+        transform: skewX(20deg) scale(1.5);
+    }
+
+    to {
+        transform: skewX(0deg) scale(1);
+        //opacity:1;
+    }
+}
