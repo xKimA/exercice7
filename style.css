@@ -82,6 +82,11 @@ caption {
           animation: anim1 1s;
 }
 
+.entry-title {
+  -webkit-animation: anim1 1s;
+          animation: anim1 1s;
+}
+
 @-webkit-keyframes anim1 {
   from {
     opacity: 0;
