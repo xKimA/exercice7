@@ -1,0 +1,85 @@
+
+.site-title a{
+animation:anim1 1s;
+}
+
+@keyframes anim1 {
+    from {
+        opacity:0;
+        
+        
+    }
+
+    50%{
+        opacity:0.5;
+        color:#e6a926;
+        filter: blur(10px);
+       
+    }
+
+    85% {
+        opacity:1;
+        filter: blur(0px);  
+    }
+}
+
+
+@keyframes shaky {
+    from {
+        filter: blur(10px);
+        
+    }
+
+    to {
+        filter: blur(0px);
+        
+    }
+}
+
+.site-description{
+    animation:anim2 1s;
+
+}
+
+@keyframes anim2 {
+    from {
+        opacity:0;
+        transform: translateY(-80vh)scale(1);
+        
+    }
+
+    50%{
+        opacity:0.5;
+        transform: translateY(-30vh) scale(1.5) ;
+    }
+
+    85%{
+        transform:skewX(20deg);
+    }
+
+    to {
+        opacity:1;
+        transform: translateY(0%)scale(1) skewX(0deg);
+        
+    }
+}
+
+.site-logo:hover{
+animation:anim3 1s;
+}
+
+@keyframes anim3 {
+    from {
+        transform:scale(1);
+        
+    }
+
+    50%{
+        transform:scale(1.5) ;
+    }
+
+    to {
+        transform:scale(1);
+        
+    }
+}

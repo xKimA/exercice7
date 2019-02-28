@@ -1,0 +1,224 @@
+/*--------------------------------------------------------------
+#general */
+/*
+ Theme Name:   Twenty Nineteen Enfant
+ Theme URI:    http://referenced.ca
+ Description:  Twenty Nineteen Enfant
+ Author:       Kim Alarie
+ Author URI:   http://referenced.ca
+ Template:     twentynineteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-nineteen-enfant
+*/
+.site-branding {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.site-branding > .site-title {
+  background-color: #2e2e2e;
+  font-size: 2em;
+  letter-spacing: 2px;
+  margin-left: 2vw;
+}
+
+.site-header.featured-image .entry-title {
+  color: #e6a926;
+}
+
+.site-branding .site-description {
+  background-color: #e6a926;
+  color: white;
+  font-size: 1em;
+  margin-left: 2vw;
+}
+
+.etiquette-image p {
+  background-image: white;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+.couleur-liste {
+  color: red;
+  background-color: #ddd;
+}
+
+.conteneur-images img {
+  border: black 2px solid;
+}
+
+.pFinPage:hover {
+  color: #e6a926;
+  margin-left: 5vw;
+}
+
+.widget-title {
+  color: #e6a926;
+}
+
+thead {
+  color: #e6a926;
+}
+
+caption {
+  font-size: 35px;
+}
+
+/*--------------------------------------------------------------
+#animation */
+.site-title a {
+  -webkit-animation: anim1 1s;
+          animation: anim1 1s;
+}
+
+@-webkit-keyframes anim1 {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+    color: #e6a926;
+    -webkit-filter: blur(10px);
+            filter: blur(10px);
+  }
+  85% {
+    opacity: 1;
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+}
+
+@keyframes anim1 {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+    color: #e6a926;
+    -webkit-filter: blur(10px);
+            filter: blur(10px);
+  }
+  85% {
+    opacity: 1;
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+}
+
+@-webkit-keyframes shaky {
+  from {
+    -webkit-filter: blur(10px);
+            filter: blur(10px);
+  }
+  to {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+}
+
+@keyframes shaky {
+  from {
+    -webkit-filter: blur(10px);
+            filter: blur(10px);
+  }
+  to {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+  }
+}
+
+.site-description {
+  -webkit-animation: anim2 1s;
+          animation: anim2 1s;
+}
+
+@-webkit-keyframes anim2 {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-80vh) scale(1);
+            transform: translateY(-80vh) scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    -webkit-transform: translateY(-30vh) scale(1.5);
+            transform: translateY(-30vh) scale(1.5);
+  }
+  85% {
+    -webkit-transform: skewX(20deg);
+            transform: skewX(20deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0%) scale(1) skewX(0deg);
+            transform: translateY(0%) scale(1) skewX(0deg);
+  }
+}
+
+@keyframes anim2 {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-80vh) scale(1);
+            transform: translateY(-80vh) scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    -webkit-transform: translateY(-30vh) scale(1.5);
+            transform: translateY(-30vh) scale(1.5);
+  }
+  85% {
+    -webkit-transform: skewX(20deg);
+            transform: skewX(20deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0%) scale(1) skewX(0deg);
+            transform: translateY(0%) scale(1) skewX(0deg);
+  }
+}
+
+.site-logo:hover {
+  -webkit-animation: anim3 1s;
+          animation: anim3 1s;
+}
+
+@-webkit-keyframes anim3 {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes anim3 {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+/*# sourceMappingURL=style.css.map */
